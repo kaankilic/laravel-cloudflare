@@ -1,0 +1,41 @@
+{
+	"name": "kaankilic/laravel-cloudflare",
+	"description": "Laravel package for the Cloudflare v4 API integration",
+	"keywords": [
+		"php",
+		"laravel",
+		"cloudflare"
+	],
+	"type": "package",
+	"minimum-stability": "dev",
+	"license": "MIT",
+	"autoload": {
+		"psr-4": {
+			"Kaankilic\\LaravelCloudflare\\": "src"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Kaankilic\\LaravelCloudflare\\": "src",
+			"Kaankilic\\LaravelCloudflare\\": "tests"
+		}
+	},
+	"require": {
+		"php": ">=7.0",
+		"ext-curl": "*",
+		"ext-fileinfo": "*",
+		"guzzlehttp/guzzle": "^6.0",
+		"graham-campbell/manager":"~4"
+	},
+	"require-dev": {
+		"mockery/mockery": "1.0",
+		"phpunit/phpunit": "~6.5"
+	},
+	"authors": [
+		{
+			"name": "Kaan Kilic",
+			"email": "kiliclarinkaan@gmail.com",
+			"role": "Developer"
+		}
+	]
+}
