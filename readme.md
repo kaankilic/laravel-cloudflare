@@ -1,6 +1,6 @@
 ## Introduction
 Laravel-Cloudflare provides an expressive and fluent way to connect CloudFlare API from the Laravel using it's own connection.
-Laravel-Cloudflare is the simplest stable profanity filter for Laravel.
+Laravel-Cloudflare is the simplest stable cloudflare v4 API connection package for Laravel.
 
 # Installation
 To get started with Laravel-Cloudflare, use Composer to add the package to your project's dependencies:
