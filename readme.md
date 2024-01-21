@@ -1,12 +1,11 @@
 ## Introduction
-Laravel-Cloudflare provides an expressive and fluent way to connect CloudFlare API from the Laravel using it's own connection.
-Laravel-Cloudflare is the simplest stable cloudflare v4 API connection package for Laravel.
+Laravel-Cloudflare offers a seamless and expressive solution for integrating the CloudFlare API into Laravel applications through its dedicated connection. This package provides a straightforward and reliable interface for connecting to the Cloudflare v4 API, making it the simplest and most stable choice for Laravel developers.
 
 # Installation
 To get started with Laravel-Cloudflare, use Composer to add the package to your project's dependencies:
 
 ```bash
-composer require graham-campbell/digitalocean
+composer require kaankilic/laravel-cloudflare
 ```
 After installing the Laravel-Cloudflare,register the `ServiceProvider` in your config/app.php configuration file:
 
