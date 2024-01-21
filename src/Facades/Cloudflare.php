@@ -4,9 +4,9 @@ namespace Kaankilic\LaravelCloudflare\Facades;
 use Illuminate\Support\Facades\Facade;
 
 /**
- * This is the digitalocean facade class.
+ * This is the cloudflare facade class.
  *
- * @author Graham Campbell <graham@alt-three.com>
+ * @author Kaan Kilic <bl4cksta@gmail.com>
  */
 class Cloudflare extends Facade
 {
